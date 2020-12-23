@@ -14,7 +14,7 @@ It uses stm32 HAL API and was used in the STM32CubeIDE.
 
 I have not tested every single function but ported everything I could.
 
-You need to set an I2C bus using the setBus() function before initializing it.
+You need to set an I&sup2C bus using the setBus() function before initializing it.
 
 I used an array of 3 sensors using single readings and it worked flawlessly.
 
