@@ -5,6 +5,19 @@ Release date: 2020 Sep 24<br>
 [![Build Status](https://travis-ci.org/pololu/vl53l0x-arduino.svg?branch=master)](https://travis-ci.org/pololu/vl53l0x-arduino)<br>
 [www.pololu.com](https://www.pololu.com/)
 
+## Port info
+
+This is a simple port made using the pololu library.
+
+It uses stm32 HAL API and was used in the STM32CubeIDE.
+
+I have not tested every single function but ported everything I could.
+
+You need to set an I2C bus using the setBus() function before initializing it.
+
+I used an array of 3 sensors using single readings and it worked flawlessly.
+
+
 ## Summary
 
 This is a library for the Arduino IDE that helps interface with ST's [VL53L0X time-of-flight distance sensor](https://www.pololu.com/product/2490). The library makes it simple to configure the sensor and read range data from it via I&sup2;C.
