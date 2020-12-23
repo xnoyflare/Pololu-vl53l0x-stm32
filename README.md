@@ -1,7 +1,7 @@
 # VL53L0X library for Arduino
 
 Port by: xnoyflare
-Version: 1.0.0<br>
+Version: 1.3.0<br>
 Release date: 2020 Dec 22<br>
 [![Build Status](https://travis-ci.org/pololu/vl53l0x-arduino.svg?branch=master)](https://travis-ci.org/pololu/vl53l0x-arduino)<br>
 [www.pololu.com](https://www.pololu.com/)
